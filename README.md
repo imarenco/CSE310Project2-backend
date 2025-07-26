@@ -2,6 +2,16 @@
 
 A Node.js backend server for the real-time group chat application using Express and Socket.IO.
 
+# Overview
+
+As a software engineer passionate about real-time communication technologies, I developed this backend server to deepen my understanding of WebSocket protocols and real-time data synchronization. This project demonstrates my exploration of Socket.IO, a powerful library that enables bidirectional, event-based communication between clients and servers.
+
+The software I wrote is a comprehensive real-time messaging backend that handles user sessions, message broadcasting, and real-time event management. It showcases advanced JavaScript/Node.js patterns including event-driven architecture, middleware implementation, and real-time data flow management.
+
+My purpose for writing this software was to master the intricacies of real-time communication systems and understand how modern chat applications handle concurrent connections, message persistence, and real-time synchronization. This project represents my commitment to learning cutting-edge technologies that power today's most popular communication platforms.
+
+[Software Demo Video](https://youtu.be/hpb-5JjPs3g)
+
 ## 🚀 Features
 
 - **Real-time messaging** with Socket.IO
@@ -290,6 +300,20 @@ backend/
 1. Add new Socket.IO events in `server.js`
 2. Update this README with new API documentation
 3. Test with multiple clients
+
+# Development Environment
+
+I developed this backend server using Node.js as the runtime environment, which provides excellent support for event-driven, non-blocking I/O operations essential for real-time applications. The development environment included VS Code as the primary IDE, with extensions for Node.js debugging and JavaScript IntelliSense.
+
+The programming language used is JavaScript (ES6+), leveraging modern features like arrow functions, destructuring, and async/await patterns. Key libraries include Express.js for the web framework, Socket.IO for real-time bidirectional communication, and CORS middleware for handling cross-origin requests. The development workflow was enhanced with Nodemon for automatic server restarts during development.
+
+# Useful Websites
+
+- [Socket.IO Official Documentation](https://socket.io/docs/)
+- [Express.js Getting Started Guide](https://expressjs.com/en/starter/installing.html)
+- [Node.js Event Emitter Documentation](https://nodejs.org/api/events.html)
+- [MDN WebSocket API Reference](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
+- [JavaScript Event Loop Explained](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 
 ## 📄 License
 
